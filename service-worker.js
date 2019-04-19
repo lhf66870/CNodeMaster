@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lhf66870/CNodeMaster/precache-manifest.69294b3639509722b752e54b85cf5ef5.js"
+  "/CNodeMaster/precache-manifest.99353b2ca73c8272e9aeff2c081134d4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/lhf66870/CNodeMaster/index.html", {
+workbox.routing.registerNavigationRoute("/CNodeMaster/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
